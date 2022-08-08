@@ -129,7 +129,7 @@ def check_and_fix_Inputs(interface, new_mac):    # Check if inputs are right
 
 def macChanger(interface, new_mac):
     subprocess.call(["ip","link","set","dev", interface, "down"])
-    subprocess.call(["ip","link","set","dev", interface, "adress", new_mac])
+    subprocess.call(["ip","link","set","dev", interface, "address", new_mac])
     subprocess.call(["ip","link","set","dev", interface, "up"])
 
     return  
