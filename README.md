@@ -1,7 +1,7 @@
 # MacSpoofing-Linux
 Linux pentest tool to change temporally the MAC Address of a network interface. 
 
-College work done in April/May for programming logic and python modules learning, so it has low optimization and some "bad habits" on the programming logic 
+College work done in April/May for programming logic and python modules learning, so it has low optimization and some "bad habits" on the programming logic. Basically my first "true" software.
 
 # Features
 # [1] Format the input MAC if doesnt have any special characters after each 2 digits
