@@ -5,7 +5,7 @@ College work done in April/May for programming logic and python modules learning
 
 # Features
 # [1] Format the input MAC if doesnt have any special characters after each 2 digits
-# [2] Format the input MAC if the special characterse after 2 digits is not ":"
+# [2] Format the input MAC if the special characters after each 2 digits is not ":"
 # [3] Mistakes generate a output with available network interfaces and their current MAC Addresses
 # [4] "Error Handling" if doesnt work
 
