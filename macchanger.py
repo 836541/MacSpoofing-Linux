@@ -32,7 +32,7 @@ def optparser():
 
     (inputs, args) = parser.parse_args()
 
-    if not inputs.interface or not interfaces.new_mac:
+    if not inputs.interface or not inputs.new_mac:
         parser.error("[X] You forgot an argument. Please use -h for help")
         quit()
 
