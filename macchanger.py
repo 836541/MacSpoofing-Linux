@@ -88,7 +88,7 @@ def check_and_fix_Inputs(interface, new_mac):    # Check if inputs are right
     new_mac         = non_alfanumeric.sub(":", new_mac)
 
 
-    if re.match(r"[0-9a-zA-Z]{12}", new_mac):
+    if re.match(r"[0-9a-zA-Z]{12}", new_mac):       # Adding ":" to MACs that have only 12 alfanumerics in a row
         index2  = 0
         mac2    = new_mac
         new_mac = ""
@@ -157,6 +157,8 @@ def main():
          print("[X] FAILED!")
          print("[!] You probably tried a duplicated MAC")
          macCompare()
+            
+    return 0 
 
 main()
 
